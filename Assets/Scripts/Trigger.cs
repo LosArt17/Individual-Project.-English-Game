@@ -14,7 +14,7 @@ public class Trigger : MonoBehaviour
         left.SetActive(true);
         right.SetActive(true);
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         
