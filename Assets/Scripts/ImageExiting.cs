@@ -8,8 +8,6 @@ public class ImageExiting : MonoBehaviour
     public GameObject wall;
     public GameObject wrong;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     private void OnTriggerEnter(Collider collision)
     {
         string tag = collision.gameObject.tag;
@@ -25,8 +23,6 @@ public class ImageExiting : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         

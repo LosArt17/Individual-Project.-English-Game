@@ -9,12 +9,12 @@ public class LastTrigger1 : MonoBehaviour
 
         if (tag.StartsWith("LastTrig"))
         {
-            string number = tag.Substring(8); // длина "LastTrig"
+            string number = tag.Substring(8);
             SceneManager.LoadScene("CongratsScene " + number);
         }
         else if (tag.StartsWith("WrongAns"))
         {
-            string number = tag.Substring(8); // длина "WrongAns" тоже 8
+            string number = tag.Substring(8);
             SceneManager.LoadScene("LoseScene " + number);
         }
     }
